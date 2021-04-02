@@ -69,7 +69,7 @@ command_router() {
     then
         "$@"
     else
-        printf "%s\n" "\"$1\" is not a 1Pass command, please try again." >&2
+        printf "%s\n" "\"$1\" is not a OnePass command, please try again." >&2
         exit 1
     fi
 }
