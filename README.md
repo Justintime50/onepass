@@ -100,7 +100,7 @@ import os
 PASSWORD = os.getenv('ONEPASSWORD_MASTER_PASSWORD')
 
 output = subprocess.check_output(
-    f'echo "$PASSWORD" | onepass list_item_login Gmail',
+    f'echo "${PASSWORD}" | onepass list_item_login Gmail',
     stdin=None,
     stderr=None,
     shell=True
