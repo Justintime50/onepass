@@ -15,6 +15,6 @@ jobs:
           commit_email: 39606064+Justintime50@users.noreply.github.com
           homebrew_owner: Justintime50
           homebrew_tap: homebrew-formulas
-          install: 'bin.install "src/onepass.sh" => "onepass"'
+          install: bin.install "src/onepass.sh" => "onepass"
           github_token: ${{ secrets.HOMEBREW_TAP_TOKEN }}
           update_readme_table: true
