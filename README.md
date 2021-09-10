@@ -5,6 +5,7 @@
 1Password CLI wrapper for easy credential retrieval.
 
 [![Build](https://github.com/Justintime50/onepass/workflows/build/badge.svg)](https://github.com/Justintime50/onepass/actions)
+[![Version](https://img.shields.io/github/v/tag/justintime50/onepass)](https://github.com/justintime50/onepass/releases)
 [![Licence](https://img.shields.io/github/license/justintime50/onepass)](LICENSE)
 
 <img src="assets/showcase.png" alt="Showcase">
