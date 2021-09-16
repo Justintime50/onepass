@@ -8,7 +8,7 @@
 [![Version](https://img.shields.io/github/v/tag/justintime50/onepass)](https://github.com/justintime50/onepass/releases)
 [![Licence](https://img.shields.io/github/license/justintime50/onepass)](LICENSE)
 
-<img src="assets/showcase.png" alt="Showcase">
+<img src="https://raw.githubusercontent.com/justintime50/assets/main/src/onepass/showcase.png" alt="Showcase">
 
 </div>
 
@@ -115,7 +115,3 @@ print(json.dumps(output_json['username']))
 ## Reference
 
 * [1Password CLI Signin](https://support.1password.com/command-line-reference/#signin)
-
-## Attribution
-
-* Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
