@@ -63,10 +63,9 @@ list_vault_details() {
 }
 
 command_router() {
-    # Check if the command passed is valid or not. 
+    # Check if the command passed is valid or not.
     # Run if it is a valid command, warn and exit if it is not.
-    if declare -f "$1" > /dev/null
-    then
+    if declare -f "$1" >/dev/null; then
         "$@"
     else
         printf "%s\n" "\"$1\" is not a OnePass command, please try again." >&2
